@@ -4,7 +4,8 @@
 this python script web scraps KickAss Torrent site for game of thrones episode torrent and stores the magnet link of those torrents with their name in a file named torrents.txt and also send an email to a predefined email address with the txt file as attachment.
 
   - Stores the torrent magnet link sorting 'age' wise.
-  - Emails the file as attachment
+  - Emails the file as attachment.
+  - Adds a Cron Job (Linux) with time interval of 15 minutes.
 
 # Usage
 
