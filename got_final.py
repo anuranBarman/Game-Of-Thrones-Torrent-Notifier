@@ -120,7 +120,7 @@ if checkedData.find("1") == -1:
 
             command='cd /home/dante/Desktop/got torrent notifier/ && /usr/bin/python3 /home/dante/Desktop/got torrent notifier/got_final.py >> /home/dante/Desktop/got torrent notifier/log.txt',
             comment="GameOfThrones")
-        job.minute.every(2)
+        job.minute.every(15)
         my_cron.write()
         print("No Torrent Found.Added the Cron Job.Exiting....")
         sys.exit(0)
